@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SEMANA: del papel al algoritmo</title>
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <button class="to-top" id="toTop" aria-label="Volver arriba">↑</button>
+
+  <header class="site-nav">
+    <a href="#inicio" class="brand">SEMANA<span>.</span>digital</a>
+
+    <nav>
+      <a href="#caso">Caso</a>
+      <a href="#timeline">Evolución</a>
+      <a href="#plataformas">Plataformas</a>
+      <a href="#transmedia">Transmedia</a>
+      <a href="#credibilidad">Credibilidad</a>
+      <a href="#final">Cierre</a>
+    </nav>
+
+    <button class="theme-toggle" id="themeToggle">Modo oscuro</button>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+      <div class="hero-bg"></div>
+      <div class="hero-noise"></div>
+
+      <div class="hero-content reveal">
+        <p class="eyebrow">Caso de estudio · Periodismo colombiano · Ecosistema digital</p>
+
+        <h1>SEMANA: del papel al algoritmo</h1>
+
+        <p class="hero-subtitle">
+          Transformación digital, audiencias, plataformas y disputa por la atención en el periodismo colombiano.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#caso" class="primary-btn">Iniciar recorrido</a>
+          <a href="#final" class="ghost-btn">Ver pregunta final</a>
+        </div>
+      </div>
+
+      <aside class="hero-card reveal">
+        <div class="mini-cover">
+          <span>ARCHIVO</span>
+          <strong>SEMANA</strong>
+          <small>de revista política a plataforma digital</small>
+        </div>
+
+        <div>
+          <h2>Una marca, muchas pantallas</h2>
+          <p>
+            SEMANA ya no puede entenderse solo como una revista. Hoy funciona como portal, señal audiovisual,
+            ecosistema social, marca de eventos, producto móvil y superficie de disputa por credibilidad.
+          </p>
+        </div>
+      </aside>
+
+      <div class="hero-scroll">
+        <span></span>
+        <p>Desliza para explorar</p>
+      </div>
+    </section>
+
+    <!-- CASO -->
+    <section class="section editorial-grid" id="caso">
+      <div class="section-kicker reveal">01 · Introducción al caso</div>
+
+      <div class="text-block reveal">
+        <h2>Un medio que cambió de soporte, ritmo y lenguaje</h2>
+        <p>
+          SEMANA es un caso potente porque permite observar, en un solo medio, varios cambios que atraviesan
+          al periodismo colombiano contemporáneo: el paso del impreso al flujo digital, la expansión hacia redes
+          sociales, la centralidad del video, la presión por las métricas y la disputa permanente por la confianza.
+        </p>
+
+        <p>
+          Su transformación no es solo técnica. No se trata simplemente de publicar en internet lo que antes iba
+          en papel. El cambio toca la manera de producir, titular, jerarquizar, distribuir y monetizar la información.
+          En otras palabras: SEMANA pasó de organizarse alrededor de una edición a vivir dentro de una lógica de
+          actualización constante.
+        </p>
+      </div>
+
+      <div class="image-card tall reveal">
+        <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80" alt="Periódicos impresos">
+        <div class="image-caption">
+          <strong>Del archivo al feed:</strong>
+          una marca con memoria impresa que ahora compite en tiempo real.
+        </div>
+      </div>
+    </section>
+
+    <!-- MÉTRICAS -->
+    <section class="section stats-section">
+      <div class="section-kicker reveal">02 · Señales del cambio</div>
+
+      <div class="stats-intro reveal">
+        <h2>El giro digital no se ve solo en el diseño: se ve en la forma de competir</h2>
+        <p>
+          El rediseño de semana.com en 2025 respondió a un consumo mayoritariamente móvil. Según el propio medio,
+          más del 90 % de sus usuarios navegaba desde celulares. Ese dato ayuda a entender por qué el contenido
+          se vuelve más visual, más rápido y más adaptable al consumo en pantalla pequeña.
+        </p>
+      </div>
+
+      <div class="metric-grid">
+        <article class="metric-card reveal">
+          <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=900&q=80" alt="Pantalla digital">
+          <span>Más del</span>
+          <strong>90%</strong>
+          <p>de usuarios del portal navegan desde dispositivos móviles, según el rediseño anunciado por SEMANA.</p>
+        </article>
+
+        <article class="metric-card reveal">
+          <img src="https://images.unsplash.com/photo-1551817958-d9d86fb29431?auto=format&fit=crop&w=900&q=80" alt="Redes sociales en celular">
+          <span>Confianza general</span>
+          <strong>32%</strong>
+          <p>en las noticias en Colombia, según el Digital News Report 2025 del Reuters Institute.</p>
+        </article>
+
+        <article class="metric-card reveal">
+          <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=900&q=80" alt="Equipo digital trabajando">
+          <span>Pago por noticias</span>
+          <strong>14%</strong>
+          <p>de los usuarios declara pagar por noticias en Colombia. La sostenibilidad digital sigue siendo frágil.</p>
+        </article>
+
+        <article class="metric-card reveal">
+          <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80" alt="Computador con información">
+          <span>Desinformación</span>
+          <strong>59%</strong>
+          <p>de colombianos dice estar preocupado por falsedades que circulan en internet.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ANTES Y AHORA -->
+    <section class="section split-section" id="antes-ahora">
+      <div class="section-kicker reveal">03 · Antes y ahora</div>
+
+      <div class="split-text reveal">
+        <h2>De la portada semanal al flujo permanente</h2>
+        <p>
+          La revista impresa tenía una temporalidad distinta: cierre, edición, portada, circulación y espera.
+          El portal digital opera con otra lógica: actualización constante, optimización, titulares de alto impacto,
+          videos, redes y recirculación.
+        </p>
+
+        <p>
+          En ese cambio se gana alcance e inmediatez, pero también aparece una tensión: cuanto más rápido se publica,
+          más importante se vuelve sostener procesos claros de verificación, corrección y responsabilidad editorial.
+        </p>
+      </div>
+
+      <div class="comparison reveal">
+        <div class="compare-card paper">
+          <div class="mock-magazine">
+            <span>REVISTA</span>
+            <h3>SEMANA</h3>
+            <p>Portada · Reportaje · Opinión</p>
+          </div>
+          <h4>Antes</h4>
+          <p>Consumo semanal, lectura más pausada, jerarquía editorial fuerte y portada como síntesis del momento político.</p>
+        </div>
+
+        <div class="compare-card digital">
+          <div class="mock-browser">
+            <div class="browser-top"></div>
+            <div class="browser-headline"></div>
+            <div class="browser-grid">
+              <span></span><span></span><span></span><span></span>
+            </div>
+          </div>
+          <h4>Ahora</h4>
+          <p>Consumo móvil, videos, redes, alertas, newsletters, Google Discover y adaptación a distintas plataformas.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CARRUSEL -->
+    <section class="section carousel-section">
+      <div class="section-kicker reveal">04 · Imaginario visual del cambio</div>
+
+      <div class="section-header reveal">
+        <h2>Archivo, pantalla y plataforma</h2>
+        <p>
+          Este carrusel funciona como apoyo visual para la exposición. Puedes reemplazar estas imágenes por capturas
+          propias de SEMANA, portadas autorizadas o pantallazos del sitio y redes.
+        </p>
+      </div>
+
+      <div class="carousel reveal">
+        <button class="carousel-btn prev" id="prevSlide">‹</button>
+
+        <div class="carousel-track" id="carouselTrack">
+          <article class="slide active">
+            <img src="https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1200&q=80" alt="Periódicos">
+            <div>
+              <h3>La memoria impresa</h3>
+              <p>La revista era un objeto: se guardaba, se recortaba y marcaba una agenda semanal.</p>
+            </div>
+          </article>
+
+          <article class="slide">
+            <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=80" alt="Redacción moderna">
+            <div>
+              <h3>La redacción conectada</h3>
+              <p>El trabajo editorial se vuelve más integrado: texto, video, redes, edición y datos conviven.</p>
+            </div>
+          </article>
+
+          <article class="slide">
+            <img src="https://images.unsplash.com/photo-1551817958-d9d86fb29431?auto=format&fit=crop&w=1200&q=80" alt="Celular y redes">
+            <div>
+              <h3>El usuario móvil</h3>
+              <p>La audiencia ya no espera la edición: entra, compara, comenta, comparte y abandona en segundos.</p>
+            </div>
+          </article>
+
+          <article class="slide">
+            <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1200&q=80" alt="Datos y algoritmos">
+            <div>
+              <h3>La capa algorítmica</h3>
+              <p>El contenido compite por aparecer en buscadores, feeds, recomendaciones y superficies de descubrimiento.</p>
+            </div>
+          </article>
+        </div>
+
+        <button class="carousel-btn next" id="nextSlide">›</button>
+      </div>
+    </section>
+
+    <!-- TIMELINE -->
+    <section class="section timeline-section" id="timeline">
+      <div class="section-kicker reveal">05 · Evolución de SEMANA</div>
+
+      <div class="section-header reveal">
+        <h2>Una línea del tiempo de la mutación editorial</h2>
+        <p>
+          Esta línea del tiempo no muestra solo fechas. Muestra cambios de lógica: del cierre impreso al flujo,
+          del lector al usuario, de la portada al ecosistema.
+        </p>
+      </div>
+
+      <div class="timeline reveal">
+        <button class="timeline-item active" data-stage="stage-1">
+          <span>1946</span>
+          Origen impreso
+        </button>
+
+        <button class="timeline-item" data-stage="stage-2">
+          <span>1982</span>
+          Segunda época
+        </button>
+
+        <button class="timeline-item" data-stage="stage-3">
+          <span>2019-2020</span>
+          Giro empresarial
+        </button>
+
+        <button class="timeline-item" data-stage="stage-4">
+          <span>2020</span>
+          Video y digital
+        </button>
+
+        <button class="timeline-item" data-stage="stage-5">
+          <span>2025</span>
+          Rediseño móvil
+        </button>
+
+        <button class="timeline-item" data-stage="stage-6">
+          <span>Actualidad</span>
+          IA, polarización y confianza
+        </button>
+      </div>
+
+      <div class="stage-panel reveal">
+        <img id="stageImage" src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80" alt="Imagen de etapa">
+
+        <div>
+          <p class="stage-label" id="stageLabel">1946 · Origen impreso</p>
+          <h3 id="stageTitle">La revista como objeto de agenda</h3>
+          <p id="stageText">
+            SEMANA nace ligada a la tradición de la revista política. Su fuerza inicial está en ordenar la conversación pública,
+            construir portadas memorables y ofrecer una lectura interpretativa del país.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- MODELO DE NEGOCIO -->
+    <section class="section business-section">
+      <div class="section-kicker reveal">06 · Modelo de negocio digital</div>
+
+      <div class="section-header reveal">
+        <h2>La sostenibilidad ya no depende de una sola fuente</h2>
+        <p>
+          El negocio digital de un medio como SEMANA se parece más a un portafolio que a un producto único. Pauta,
+          suscripción, eventos, contenido exclusivo, branded content y tráfico conviven en una misma arquitectura.
+        </p>
+      </div>
+
+      <div class="business-grid">
+        <article class="business-card reveal">
+          <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=900&q=80" alt="Modelo de suscripción">
+          <h3>Suscripciones</h3>
+          <p>Buscan convertir lectores frecuentes en usuarios registrados o pagos, aunque el hábito de pagar por noticias en Colombia sigue siendo bajo.</p>
+        </article>
+
+        <article class="business-card reveal">
+          <img src="https://images.unsplash.com/photo-1556155092-490a1ba16284?auto=format&fit=crop&w=900&q=80" alt="Publicidad digital">
+          <h3>Publicidad digital</h3>
+          <p>La pauta depende del tráfico, la segmentación y la capacidad de atraer audiencias medibles para marcas y anunciantes.</p>
+        </article>
+
+        <article class="business-card reveal">
+          <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=900&q=80" alt="Branded content">
+          <h3>Contenido en colaboración</h3>
+          <p>El branded content convierte el medio en espacio narrativo para marcas, pero exige transparencia para no confundir publicidad con periodismo.</p>
+        </article>
+
+        <article class="business-card reveal">
+          <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=900&q=80" alt="Eventos y foros">
+          <h3>Eventos y foros</h3>
+          <p>Foros y encuentros permiten monetizar reputación, convocar audiencias especializadas y producir contenidos derivados.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PLATAFORMAS -->
+    <section class="section platform-section" id="plataformas">
+      <div class="section-kicker reveal">07 · Ecosistema multiplataforma</div>
+
+      <div class="section-header reveal">
+        <h2>La misma marca, lenguajes distintos</h2>
+        <p>
+          SEMANA no comunica igual en todas partes. Cada plataforma exige tono, ritmo, formato y promesa de valor diferentes.
+          Haz clic en cada botón para ver cómo cambia la lógica.
+        </p>
+      </div>
+
+      <div class="platform-layout reveal">
+        <div class="platform-tabs">
+          <button class="platform-tab active" data-platform="web">Web</button>
+          <button class="platform-tab" data-platform="youtube">YouTube</button>
+          <button class="platform-tab" data-platform="instagram">Instagram</button>
+          <button class="platform-tab" data-platform="tiktok">TikTok</button>
+          <button class="platform-tab" data-platform="facebook">Facebook</button>
+          <button class="platform-tab" data-platform="x">X/Twitter</button>
+        </div>
+
+        <article class="platform-panel">
+          <img id="platformImage" src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=1200&q=80" alt="Plataforma digital">
+          <div>
+            <p class="platform-label" id="platformLabel">Portal web</p>
+            <h3 id="platformTitle">La portada como centro de distribución</h3>
+            <p id="platformText">
+              El sitio web concentra la agenda, organiza secciones, publica últimas noticias y conecta con productos como contenido exclusivo,
+              opinión, especiales, Semana TV, Semana Play y verticales temáticas.
+            </p>
+
+            <div class="platform-tags" id="platformTags">
+              <span>Notas</span>
+              <span>Portada modular</span>
+              <span>SEO</span>
+              <span>Discover</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- TRANSMEDIA -->
+    <section class="section transmedia-section" id="transmedia">
+      <div class="section-kicker reveal">08 · Arquitectura transmedia</div>
+
+      <div class="section-header reveal">
+        <h2>Una noticia ya no termina en una nota</h2>
+        <p>
+          En un ecosistema digital, una noticia central se desarma y se adapta a muchas superficies. No es copiar y pegar:
+          es transformar el relato según el lenguaje de cada plataforma.
+        </p>
+      </div>
+
+      <div class="transmedia-board reveal">
+        <div class="story-center">
+          <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80" alt="Historia central">
+          <h3>Noticia central</h3>
+          <p>Un hecho político, social o económico con interés público.</p>
+        </div>
+
+        <button class="story-node node-1 active" data-story="articulo">
+          <span>01</span>
+          Artículo web
+        </button>
+
+        <button class="story-node node-2" data-story="reel">
+          <span>02</span>
+          Reel
+        </button>
+
+        <button class="story-node node-3" data-story="short">
+          <span>03</span>
+          Short
+        </button>
+
+        <button class="story-node node-4" data-story="carrusel">
+          <span>04</span>
+          Carrusel
+        </button>
+
+        <button class="story-node node-5" data-story="hilo">
+          <span>05</span>
+          Hilo en X
+        </button>
+
+        <button class="story-node node-6" data-story="live">
+          <span>06</span>
+          Live
+        </button>
+
+        <button class="story-node node-7" data-story="entrevista">
+          <span>07</span>
+          Entrevista
+        </button>
+
+        <button class="story-node node-8" data-story="podcast">
+          <span>08</span>
+          Podcast
+        </button>
+
+        <button class="story-node node-9" data-story="newsletter">
+          <span>09</span>
+          Newsletter
+        </button>
+      </div>
+
+      <article class="story-detail reveal">
+        <img id="storyImage" src="https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1200&q=80" alt="Formato transmedia">
+        <div>
+          <p class="story-label" id="storyLabel">Formato 01</p>
+          <h3 id="storyTitle">Artículo web: profundidad, contexto y archivo</h3>
+          <p id="storyText">
+            La nota web organiza los hechos, entrega antecedentes, enlaza fuentes y deja registro. Es la pieza que puede sostener más contexto,
+            pero compite con la presión de publicar rápido y titular para ser encontrado.
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <!-- CREDIBILIDAD -->
+    <section class="section credibility-section" id="credibilidad">
+      <div class="section-kicker reveal">09 · Audiencias, polarización y credibilidad</div>
+
+      <div class="section-header reveal">
+        <h2>La visibilidad no siempre se convierte en confianza</h2>
+        <p>
+          SEMANA puede estar presente en muchas plataformas y al mismo tiempo enfrentar dudas sobre credibilidad.
+          Esa es una de las paradojas centrales del periodismo digital: circular mucho no significa necesariamente
+          convencer más.
+        </p>
+      </div>
+
+      <div class="credibility-grid">
+        <article class="credibility-card reveal">
+          <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=900&q=80" alt="Debate">
+          <h3>Cámaras de eco</h3>
+          <p>
+            Las audiencias tienden a consumir y compartir contenidos que confirman sus posiciones. El medio se interpreta desde identidades políticas,
+            no solo desde criterios periodísticos.
+          </p>
+        </article>
+
+        <article class="credibility-card reveal">
+          <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=900&q=80" alt="Audiencias conectadas">
+          <h3>Ataques y conversación dura</h3>
+          <p>
+            La conversación pública digital premia la reacción. Comentarios, burlas, insultos y etiquetas pueden moldear la percepción sobre un medio.
+          </p>
+        </article>
+
+        <article class="credibility-card reveal">
+          <img src="https://images.unsplash.com/photo-1526378722484-bd91ca387e72?auto=format&fit=crop&w=900&q=80" alt="Algoritmo">
+          <h3>Algoritmos y viralidad</h3>
+          <p>
+            Las plataformas no distribuyen solo por relevancia pública. También premian permanencia, clic, emoción, controversia e interacción.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- DESINFORMACIÓN -->
+    <section class="section disinfo-section">
+      <div class="section-kicker reveal">10 · Desinformación</div>
+
+      <div class="section-header reveal">
+        <h2>Mito vs realidad en el periodismo de alta velocidad</h2>
+        <p>
+          Haz clic sobre cada tarjeta. La idea no es satanizar la tecnología, sino entender que la velocidad digital
+          necesita verificación más visible, correcciones más transparentes y criterios editoriales más fuertes.
+        </p>
+      </div>
+
+      <div class="flip-grid">
+        <article class="flip-card reveal">
+          <div class="flip-inner">
+            <div class="flip-front">
+              <img src="https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=900&q=80" alt="Noticias">
+              <h3>Mito</h3>
+              <p>“Si se volvió viral, debe ser importante”.</p>
+            </div>
+            <div class="flip-back">
+              <h3>Realidad</h3>
+              <p>Lo viral puede ser importante, pero también puede ser exagerado, manipulado o incompleto. La viralidad mide circulación, no calidad.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="flip-card reveal">
+          <div class="flip-inner">
+            <div class="flip-front">
+              <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=900&q=80" alt="Datos digitales">
+              <h3>Mito</h3>
+              <p>“El algoritmo muestra lo mejor”.</p>
+            </div>
+            <div class="flip-back">
+              <h3>Realidad</h3>
+              <p>El algoritmo muestra lo que retiene, activa o predice como relevante para cada usuario. Eso no siempre coincide con interés público.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="flip-card reveal">
+          <div class="flip-inner">
+            <div class="flip-front">
+              <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=900&q=80" alt="Pantallas">
+              <h3>Mito</h3>
+              <p>“Publicar rápido es ganar”.</p>
+            </div>
+            <div class="flip-back">
+              <h3>Realidad</h3>
+              <p>La rapidez puede dar alcance, pero si sacrifica precisión, el costo se paga en confianza. La corrección tardía rara vez viaja tanto como el error.</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- IA -->
+    <section class="section ai-section">
+      <div class="section-kicker reveal">11 · Inteligencia artificial y automatización</div>
+
+      <div class="ai-layout">
+        <div class="ai-visual reveal">
+          <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80" alt="Inteligencia artificial">
+        </div>
+
+        <div class="ai-text reveal">
+          <h2>La IA puede acelerar la redacción, pero no reemplaza el criterio periodístico</h2>
+
+          <p>
+            En medios digitales, la inteligencia artificial puede apoyar tareas como transcripción, subtitulado,
+            etiquetado de temas, sugerencias de titulares, análisis de datos, SEO, traducción y recirculación de contenidos.
+          </p>
+
+          <p>
+            Pero el punto crítico no es si se usa IA o no. La pregunta importante es cómo se usa, quién supervisa,
+            qué se informa a la audiencia y qué decisiones quedan reservadas al juicio humano.
+          </p>
+
+          <div class="ai-list">
+            <span>SEO asistido</span>
+            <span>Automatización</span>
+            <span>Análisis de datos</span>
+            <span>Ética editorial</span>
+            <span>Transparencia</span>
+            <span>Responsabilidad humana</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL -->
+    <section class="section final-section" id="final">
+      <div class="final-bg"></div>
+
+      <div class="final-content reveal">
+        <p class="section-kicker">12 · Reflexión final</p>
+
+        <h2>¿Puede un medio sobrevivir a la velocidad digital sin perder rigor y confianza?</h2>
+
+        <p>
+          El caso de SEMANA deja una pregunta incómoda para el periodismo colombiano: ¿qué ocurre cuando un medio se vuelve más visible,
+          más rápido y más multiplataforma, pero al mismo tiempo enfrenta una crisis de confianza generalizada?
+        </p>
+
+        <p>
+          La respuesta no puede ser volver nostálgicamente al papel, porque las audiencias ya cambiaron. Pero tampoco puede ser entregar
+          toda la lógica editorial al clic, al algoritmo o a la reacción inmediata. La tecnología puede ampliar el alcance del periodismo,
+          pero no sustituye su tarea central: verificar, contextualizar, contrastar y responder públicamente por lo que publica.
+        </p>
+
+        <div class="final-thesis">
+          <article>
+            <span>01</span>
+            <h3>Más plataformas no significan más credibilidad</h3>
+            <p>La confianza se construye con coherencia editorial, transparencia y capacidad de corregir.</p>
+          </article>
+
+          <article>
+            <span>02</span>
+            <h3>La viralidad no reemplaza el rigor</h3>
+            <p>Un contenido puede circular mucho y aun así ser débil, incompleto o poco responsable.</p>
+          </article>
+
+          <article>
+            <span>03</span>
+            <h3>La atención no es lo mismo que la confianza</h3>
+            <p>Capturar segundos no equivale a construir una relación sólida con la audiencia.</p>
+          </article>
+
+          <article>
+            <span>04</span>
+            <h3>El algoritmo amplifica, pero no garantiza calidad</h3>
+            <p>La distribución tecnológica necesita criterio humano, ética y responsabilidad pública.</p>
+          </article>
+        </div>
+
+        <p class="closing-line">
+          La tecnología debe servir al periodismo, no reemplazarlo. Ese es el verdadero reto de SEMANA y de cualquier medio que quiera sobrevivir al ecosistema digital sin perder su autoridad.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Autores</p>
+    <h3>Camila Camacho y Joseph Gallardo</h3>
+    <small>Maestría en Comunicación, Culturas Digitales y Visualización de Datos</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
